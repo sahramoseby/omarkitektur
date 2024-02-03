@@ -23,14 +23,15 @@ export default function Home() {
       </div>
 
       <div>
-          <Image
+        <Image
               src="/bilde.jpg"
               alt="om-arkitektur Logo"
               width={400}
               height={24}
               priority
             />
-      </div>    
+      </div>  
+
       <div className="flex overflow-hidden w-full animate-horizonalMotion">
         <div>
       <Image
