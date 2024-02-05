@@ -93,7 +93,7 @@ export default function Home() {
             <li className="opacity-50">+47 93 07 25 51</li>
           </ul> 
 
-          <ul className=" list-none m-0 max-w-[30ch] text-sm">
+          <ul className=" list-none m-0 max-w-[30ch] text-m">
             <li> Sivert Frost Støren </li>
             <li className="opacity-50">sivert@omarkitektur.no</li>
             <li className="opacity-50">+45 52 16 62 60</li>
