@@ -53,7 +53,7 @@ export default function Home() {
             </div>
             <div>
                 <Image
-              src="/bilde3.svg"
+              src="/bilde2.jpg"
               alt="om-arkitektur Logo"
               width={400}
               height={24}
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
             <div>
                 <Image
-              src="/bilde4.svg"
+              src="/bilde2.jpg"
               alt="om-arkitektur Logo"
               width={400}
               height={24}
