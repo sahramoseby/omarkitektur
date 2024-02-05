@@ -31,7 +31,7 @@ export default function Home() {
               priority
             />
       </div>  
-
+{/*
       <div className="flex overflow-hidden w-full animate-horizonalMotion">
         <div>
       <Image
@@ -69,7 +69,8 @@ export default function Home() {
               priority
             />
             </div>
-        </div>
+        </div> 
+        */}
       
     
       <div className="mb-32 grid text-center text-black lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
