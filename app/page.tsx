@@ -23,14 +23,54 @@ export default function Home() {
       </div>
 
       <div>
-          <Image
-            src="/bilde1.jpg"
-            alt="om-arkitektur Logo"
-            width={400}
-            height={24}
-            priority
-          />
+        <Image
+              src="/bilde1.jpg"
+              alt="om-arkitektur Logo"
+              width={400}
+              height={24}
+              priority
+            />
+      </div>  
+
+      <div className="flex overflow-hidden w-full animate-horizonalMotion">
+        <div>
+      <Image
+              src="/bilde2.jpg"
+              alt="om-arkitektur Logo"
+              width={400}
+              height={24}
+              priority
+            />
+            </div>
+            <div>
+                <Image
+              src="/bilde2.jpg"
+              alt="om-arkitektur Logo"
+              width={400}
+              height={24}
+              priority
+            />
+            </div>
+            <div>
+                <Image
+              src="/bilde3.svg"
+              alt="om-arkitektur Logo"
+              width={400}
+              height={24}
+              priority
+            />
+            </div>
+            <div>
+                <Image
+              src="/bilde4.svg"
+              alt="om-arkitektur Logo"
+              width={400}
+              height={24}
+              priority
+            />
+            </div>
         </div>
+      
     
       <div className="mb-32 grid text-center text-black lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
        
