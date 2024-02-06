@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex bg-white  min-h-screen flex-col items-center p-12 md:gap-8 gap-4">
-      <div className="className='grid grid-cols-3 w-full">
+      <div className="className='grid md:grid-cols-3 w-full">
         <div className="flex w-full items-end justify-start">
           <a
             className="pointer-events-none flex place-items-center gap-2"
@@ -46,7 +46,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="mb-16 grid text-center text-black lg:max-w-5xl lg:w-full lg:mb-0 grid-cols-2 gap-8  lg:grid-cols-4">
+      <div className="mb-16 grid text-left text-black lg:max-w-5xl lg:w-full lg:mb-0 grid-cols-1 mt-4 gap-8  lg:grid-cols-4 self-start md:self-center">
         <ul className="list-none m-0  max-w-[30ch] text-md text-left">
           <li>Anton Mailänder</li>
           <li className="opacity-50">
