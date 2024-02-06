@@ -2,15 +2,16 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex bg-white  min-h-screen flex-col items-center p-24 md:gap-24 gap-4">
+    <main className="flex bg-white  min-h-screen flex-col items-center p-12 md:gap-8 gap-4">
       <div className="className='grid grid-cols-3 w-full">
-        <div className="flex h-48 w-full items-end justify-start">
+        <div className="flex w-full items-end justify-start">
           <a
             className="pointer-events-none flex place-items-center gap-2"
             href="/"
           >
             <Image
-              src="/bilde2.jpg"
+              className="-mx-2"
+              src="/om-logo.svg"
               alt="om-arkitektur Logo"
               width={150}
               height={24}
@@ -36,15 +37,16 @@ export default function Home() {
           </p>
         </div>
         <Image
-          className="col-span-1 justify-self-center max-md:my-8"
+          className="col-span-1 justify-self-center"
           src="/bilde1.jpg"
           alt="om-arkitektur Logo"
-          width={600}
-          height={600}
+          width={425}
+          height={425}
           priority
         />
       </div>
-      <div className="mb-32 grid text-center text-black lg:max-w-5xl lg:w-full lg:mb-0 grid-cols-2 gap-8  lg:grid-cols-4">
+
+      <div className="mb-16 grid text-center text-black lg:max-w-5xl lg:w-full lg:mb-0 grid-cols-2 gap-8  lg:grid-cols-4">
         <ul className="list-none m-0  max-w-[30ch] text-md text-left">
           <li>Anton Mailänder</li>
           <li className="opacity-50">
