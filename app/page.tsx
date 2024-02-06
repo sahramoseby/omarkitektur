@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex bg-white  min-h-screen flex-col items-center p-12 md:gap-8 gap-4">
+    <main className="flex bg-white  min-h-screen flex-col items-center p-12 md:gap-8 gap-4 justify-evenly">
       <div className="className='grid md:grid-cols-3 w-full">
         <div className="flex w-full items-end justify-start">
           <a
@@ -28,7 +28,7 @@ export default function Home() {
             <a href="mailto:post@omarkitektur.no">post@omarkitektur.no</a>
           </p>
           <p>
-            <a href="tel:+ 4790552560">+47 90 55 25 60</a>
+            <a href="tel:+4790552560">+47 90 55 25 60</a>
           </p>
           <p>
             <a href="https://www.instagram.com/om_arkitektur/">
