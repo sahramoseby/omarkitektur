@@ -25,7 +25,7 @@ export default function Home() {
         <div className="text-black col-start-1">
           <p>Josefines gate 32, 0351 Oslo</p>
           <p>
-            <a href="mailto:post@omarkitektur.no">post@omarkitektur.no</a>
+            <a href="mailto:post@omarkitektur.com">post@omarkitektur.com</a>
           </p>
           <p>
             <a href="tel:+4790552560">+47 90 55 25 60</a>
@@ -36,6 +36,7 @@ export default function Home() {
             </a>
           </p>
         </div>
+
         <Image
           className="col-span-1 justify-self-center"
           src="/bilde1.jpg"
@@ -50,7 +51,7 @@ export default function Home() {
         <ul className="list-none m-0  max-w-[30ch] text-md text-left">
           <li>Anton Mailänder</li>
           <li className="opacity-50">
-            <a href="mailto:anton@omarkitektur.no">anton@omarkitektur.no</a>
+            <a href="mailto:anton@omarkitektur.com">anton@omarkitektur.com</a>
           </li>
           <li className="opacity-50">
             <a href="tel:+4670-9604539">+46 70-960 45 39</a>
@@ -60,8 +61,8 @@ export default function Home() {
         <ul className=" list-none m-0 max-w-[30ch] text-md text-left">
           <li>Ferdinand Aagenæs</li>
           <li className="opacity-50">
-            <a href="mailto:ferdinand@omarkitektur.no">
-              ferdinand@omarkitektur.no
+            <a href="mailto:ferdinand@omarkitektur.com">
+              ferdinand@omarkitektur.com
             </a>
           </li>
           <li className="opacity-50">
@@ -72,7 +73,7 @@ export default function Home() {
         <ul className=" list-none m-0 max-w-[30ch] text-md text-left">
           <li>Jo Giæver Suul</li>
           <li className="opacity-50">
-            <a href="mailto:jo@omarkitektur.no">jo@omarkitektur.no</a>
+            <a href="mailto:jo@omarkitektur.com">jo@omarkitektur.com</a>
           </li>
           <li className="opacity-50">
             <a href="tel:+4793072551">+47 93 07 25 51</a>
@@ -82,7 +83,7 @@ export default function Home() {
         <ul className=" list-none m-0 max-w-[30ch] text-md text-left">
           <li>Sivert Frost Støren</li>
           <li className="opacity-50">
-            <a href="mailto:sivert@omarkitektur.no">sivert@omarkitektur.no</a>
+            <a href="mailto:sivert@omarkitektur.com">sivert@omarkitektur.com</a>
           </li>
           <li className="opacity-50">
             <a href="tel:+4552166260">+45 52 16 62 60</a>
